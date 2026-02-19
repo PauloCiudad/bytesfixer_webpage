@@ -28,15 +28,13 @@ createRoot(document.getElementById('root')).render(
       <div className="gap-37 flex justify-center">
         <Cards titulo={"Desarrollo de Sistemas"} subtitulo={"Oracle Forms/ Reports / Oracle APEX"} color={"azul"}/>
         <Cards titulo={"Desarrollo Web"} subtitulo={"Sitios web modernos y responsivos"} color={"verde"}/>
-        <Cards titulo={"Soporte Técnico"} subtitulo={"Asistencia técnica especializada"} color={"azul"}/>
+        <Cards titulo={"Soporte Técnico"} subtitulo={"Windows / Linux / Servidores"} color={"azul"}/>
       </div>
     </section>
-    <section id="portafolio" className="bg-[url('./assets/cover.png')] bg-cover bg-center h-screen min-h-150 flex flex-col items-center justify-center text-center px-4 gap-10">
-      <h2 className="text-[2.8rem] font-bold leading-50">Portafolio</h2>
+    <section id="portafolio" className="bg-[url('./assets/cover.png')] bg-cover bg-center h-screen min-h-150 flex flex-col items-center justify-center text-center">
+      <h2 className="text-[2.8rem] font-bold">Portafolio</h2>
       <p className="text-[20px] mb-6 leading-20">Explora algunos de nuestros proyectos destacados en desarrollo web, Oracle APEX y soporte técnico.</p>
-      <div className="gap-37 flex justify-center">
         <Carrusel />
-      </div>
     </section>
   </StrictMode>,
 )
